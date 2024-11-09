@@ -1,3 +1,4 @@
-langchain
 streamlit
-langchain_core
+llama-cpp-python  
+langchain>=0.1.7  
+
