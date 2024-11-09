@@ -4,6 +4,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms import Ollama
 import streamlit as st
+import os
+
+base_url = os.getenv('API_BASE_URL', 'http://localhost:11434/api/generate')
 
 st.title("AkshayGPT ChatBot")
 
