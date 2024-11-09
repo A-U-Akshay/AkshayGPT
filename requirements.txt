@@ -2,5 +2,5 @@ streamlit
 langchain>=0.1.7  
 langchain_core
 langchain_community
-llama-cpp-python==0.3.2
+llama-cpp-python==0.3.0
 
